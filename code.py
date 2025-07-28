@@ -12,7 +12,7 @@ if choice == "1":
     print(pounds, "pounds is", round(kilograms, 2), "kilograms.")
     
 elif choice == "2":
-    kilograms = float(input("Enter weight in kilograms: "))
+    kilograms = float(input("Enter  weight in kilograms: "))
     pounds = kilograms / 0.453592
     print(kilograms, "kilograms is", round(pounds, 2), "pounds.")
     
